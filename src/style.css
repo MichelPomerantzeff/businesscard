@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+}
+
+body {
+    background: #23252C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app {
+    background: #1A1B21;
+    border-radius: 10px;
+    width: 500px
+}
+
+.headerImg{
+    display: flex;
+    justify-content: center;
+}
+
+.headerImg > img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.top {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 5px
+}
+
+.job-title {
+    margin-top: 5px;
+    color: #B45309;
+}
+
+.globe-icon {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px 0 0;
+}
+
+.pin-icon {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px 0 0;
+}
+
+.whatsapp-icon {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px 0 0;
+}
+
+.topInfo {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoContent > span{
+    font-size: .7em
+}
+
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.email {
+    height: 34px;
+    width: 115px;
+    border-radius: 6px;
+    margin: 5px 10px;
+}
+
+.email:hover {
+    cursor: pointer;
+    opacity: .5;
+}
+
+.email-icon {
+    height: 9.6px;
+    width: 12.8px;
+    margin-right: 5px;
+    border-radius: 0px;
+}
+
+.linkedin {
+    background-color: deepskyblue;
+    height: 34px;
+    width: 115px;
+    border-radius: 6px;
+    margin: 5px 10px;
+}
+
+.linkedin:hover {
+    cursor: pointer;
+    opacity: .5;
+}
+
+.in-icon {
+    height: 14px;
+    width: 14px;
+    margin: 0px 2px -2px 0px;
+    border-radius: 0px;
+}
+
+.intro {
+    color: white;
+    font-size: .8rem;
+    padding: 10px 30px;
+    font-family: sans-serif;
+}
+
+.intro p{
+    line-height: 21px;
+}
+
+.intro h2 {
+    margin: 10px auto;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects li {
+    margin: 2px;
+}
+
+.projects a {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+
+ul{
+    margin: 0 15px;
+}
+
+.footer {
+    color: white;
+    background: #161619;
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-icons {
+    width: 30px;
+    height: 30px;
+}
